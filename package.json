@@ -1,0 +1,27 @@
+{
+  "name": "typechain",
+  "version": "1.0.0",
+  "description": "practice",
+  "scripts": {
+    "build": "tsc",
+    "dev": "nodemon --exec ts-node src/index.ts",
+    "start": "node build/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Programmers00/typechain.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Programmers00/typechain/issues"
+  },
+  "homepage": "https://github.com/Programmers00/typechain#readme",
+  "devDependencies": {
+    "ts-node": "^10.9.1"
+  },
+  "dependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
